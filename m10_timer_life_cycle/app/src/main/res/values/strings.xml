@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="numericView">10</string>
+    <string name="title">Таймер</string>
+    <string name="startButton">Старт</string>
+    <string name="stopButton">Стоп</string>
+    <string name="sliderDescription">Ползунок для установки времени таймера</string>
+    <string name="taskCompleted">Задание выполнено</string>
+</resources>

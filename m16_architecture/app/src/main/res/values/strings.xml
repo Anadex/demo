@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">m16_architecture</string>
+    <string name="button">Обновить</string>
+    <string name="starting_message">Нажмите на кнопку, чтобы выбрать занятие</string>
+</resources>

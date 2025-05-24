@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rover">Rover:\u0020</string>
+    <string name="sol">Sol:\u0020</string>
+    <string name="camera">Camera:\u0020</string>
+    <string name="date">Date:\u0020</string>
+</resources>

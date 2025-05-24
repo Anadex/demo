@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Geo</string>
+    <string name="msg_token_fmt">FCM registration Token: %s</string>
+</resources>

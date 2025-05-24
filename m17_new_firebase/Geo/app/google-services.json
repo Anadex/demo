@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215551541826",
+    "project_id": "skillbox-84810",
+    "storage_bucket": "skillbox-84810.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215551541826:android:fb7508bd8ca9fd116723db",
+        "android_client_info": {
+          "package_name": "com.example.geo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdAzkLlkeLlKlfAQKun8pk2URQXF-1zdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

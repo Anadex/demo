@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_text">Добро пожаловать в приложение Feedback quiz. Предлагаем вам ответить на несколько вопросов.</string>
+    <string name="question">Вопрос</string>
+    <string name="send">Отправить</string>
+    <string name="no_answer">Вы не ответили</string>
+
+</resources>

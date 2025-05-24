@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="enter_the_word">Введите слово</string>
+    <string name="add_to_dictionary">Добавить в словарь</string>
+    <string name="clear_the_dictionary">Очистить словарь</string>
+    <string name="toast">Введите слово. Разрешены только буквы и дефис.</string>
+    <string name="word">Слово</string>
+</resources>

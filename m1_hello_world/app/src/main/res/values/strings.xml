@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Passengers Counter</string>
+    <string name="reset">Сброс</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="textInfoNoPassengers">Все места свободны</string>
+    <string name="textInfoHavePassengers">Осталось мест</string>
+    <string name="textInfoTooManyPassengers">Пассажиров слишком много!</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Поиск</string>
+    <string name="search_hint">Введите поисковый запрос</string>
+    <string name="button_name">Поиск</string>
+    <string name="default_text">Здесь будет результат поискового запроса</string>
+    <string name="start_search_text">Ищем…</string>
+    <string name="too_short_text">Слишком короткий запрос</string>
+    <string name="nothing_found">По запросу %s ничего не найдено</string>
+    </resources>

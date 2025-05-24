@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="photoItem"
+            type="com.anadex.recyclerview.data.PhotoDTO" />
+
+        <variable
+            name="itemPosition"
+            type="String" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#C6878383"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="90"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{"Rover: " + photoItem.roverName}'
+                    android:textColor="@color/white"
+                    tools:text="rover" />
+
+                <TextView
+                    android:id="@+id/camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{"Camera: " + photoItem.cameraName}'
+                    android:textColor="@color/white"
+                    tools:text="camera" />
+
+                <TextView
+                    android:id="@+id/sol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{"Sol: " + photoItem.sol}'
+                    android:textColor="@color/white"
+                    tools:text="sol" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{"Date: " + photoItem.earthDate}'
+                    android:textColor="@color/white"
+                    tools:text="date" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:text="@{itemPosition}"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:text="1" />
+        </LinearLayout>
+    </FrameLayout>
+</layout>

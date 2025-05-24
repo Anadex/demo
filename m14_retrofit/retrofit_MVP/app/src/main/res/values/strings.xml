@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="refresh">Обновить</string>
+    <string name="phone">Телефон</string>
+    <string name="age">Возраст</string>
+    <string name="email">Электронный адрес</string>
+    <string name="country">Страна</string>
+    <string name="gender">Пол</string>
+    <string name="name">Имя</string>
+    <string name="failedToLoad">Не удалось загрузить</string>
+</resources>

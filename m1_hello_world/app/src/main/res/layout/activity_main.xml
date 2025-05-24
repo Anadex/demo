@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="screen"
+    android:padding="10dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|clip_vertical"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        tools:text="Все места свободны" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="80sp"
+        android:textColor="@color/black"
+        tools:text="0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonMinus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start|bottom"
+        android:gravity="center"
+        android:text="@string/minus"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPlus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end|bottom"
+        android:gravity="center"
+        android:text="@string/plus"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="80dp"
+        android:paddingVertical="40dp"
+        android:text="@string/reset"
+        android:textSize="25sp" />
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Constraint</string>
+    <string name="songTitle">Название композиции</string>
+    <string name="artist">Исполнитель</string>
+    <string name="album_image">Изображение альбома</string>
+    <string name="previous">Предыдущий</string>
+    <string name="play">Играть</string>
+    <string name="next">Следующий</string>
+</resources>

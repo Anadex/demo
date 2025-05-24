@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_btn">Начать</string>
+    <string name="welcome_feedback_quiz">Добро пожаловать в приложение Feedback quiz</string>
+    <string name="title_of_questions_fragment">Опрос</string>
+    <string name="title_of_result_fragment">Результаты</string>
+    <string name="welcome_text">Добро пожаловать в приложение Feedback quiz. Предлагаем вам ответить на несколько вопросов.</string>
+    <string name="question">Вопрос</string>
+    <string name="your_answer">Ваш ответ</string>
+    <string name="no_answer">Вы не ответили</string>
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+    <string name="restart">Начать заново</string>
+    <string name="enter_your_age">Укажите дату своего рождения</string>
+</resources>
